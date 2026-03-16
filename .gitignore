@@ -160,3 +160,13 @@ outputs/
 results/
 figures/
 plots/
+
+# Ignore the heavy data and results
+data/
+results/
+models/*.pth
+models/*.pt
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
